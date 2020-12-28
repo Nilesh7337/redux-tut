@@ -35,7 +35,7 @@
 }
 
 .btn-wrapper button {
-  background-color: red;
+  background-color: mediumblue;
   border: 0px;
   padding: 10px;
   border-radius: 4px;
@@ -46,11 +46,11 @@
 .img-wrapper img{
   width: 100px;
   height: 100px;
-  margin-top: -20px;
+  margin-top: -10px;
 }
 
 .cart-wrapper{
-  height: 100px;
+  height: 116px;
   width: 500px;
   border: 1px solid #ccc;
   margin-left: 10%;
@@ -70,6 +70,26 @@
   right: 1%;
   top: 1%;
 }
+
+.cart-count {
+  text-align: center;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  z-index: 1;
+  background-color: red;
+  padding: 3px;
+  width: 22px;
+  height: 21px;
+  border-radius: 50%;
+  color: #fff;
+}
+
+button.remove-cart-btn {
+  background-color: red;
+  margin-top: 8px;
+}
+
 /*  */
 
 @keyframes App-logo-spin {
