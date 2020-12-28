@@ -5,6 +5,7 @@ import {addToCart} from "../services/Actions/actions";
 
 
 const mapStateToProps=state => ({
+    cardData:state
 
 })
 

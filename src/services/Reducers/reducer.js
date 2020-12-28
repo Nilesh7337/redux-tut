@@ -6,8 +6,10 @@ const initialState={
 
 const cardItems = (state=initialState, action) => {
 
-    switch(action, type){
+    switch(action.type){
+        
         case ADD_TO_CART:
+            console.warn("reducer", action)
             return{
                 ...state,
                 cardData:action.data
