@@ -6,10 +6,10 @@ const Home = () => {
         <div className="add-to-cart">
             <img src="https://images.vexels.com/media/users/3/200098/isolated/preview/7ad7c76da9a0cd7d2b01b64b2590617b-shopping-cart-icon-shopping-cart-icon-by-vexels.png" />
         </div>
-      <h1>Home Component</h1>
+      <h1 className="header">Home Component</h1>
       <div className="cart-wrapper">
         <div className="img-wrapper item">
-          <img src="https://img.pngio.com/iphone-8-comprehensive-screen-iphone-x-eight-png-image-and-clipart-iphonepng-png-509_768.png" />
+          <img src="https://clipartart.com/images/clipart-image-gallery-app-1.jpg" />
         </div>
         <div className="text-wrapper item">
           <span>I-Phone</span>
